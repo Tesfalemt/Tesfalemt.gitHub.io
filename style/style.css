@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(109, 236, 194);
+}
+.a{
+
+    font-family: Arial,Verdana, Trebuchet MS,Georgia, Tahoma, Courier;
+    size: 45px;
+    font-weight: 100;
+}
+link{
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
+}
