@@ -6,9 +6,11 @@ h2 {
     font-family: Arial,Verdana, Trebuchet MS,Georgia, Tahoma, Courier;
     size: 45px;
     font-weight: 100;
+    
 }
+
 link{
-    color:green;
+    color:rgb(20, 234, 20);
     background-color: transparent;
     text-decoration: none;
 }
