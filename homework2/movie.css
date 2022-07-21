@@ -6,12 +6,10 @@ body {
 #banner {
   background-image: url(bannerbg.png);
   background-repeat: repeat-x;
-  
+
   height: 50px;
-  border-top-right-radius: 25px;
 }
-#banner img{
-  
+#banner img {
   text-align: center;
 }
 
@@ -30,7 +28,7 @@ h1 {
   border-top-right-radius: 20px;
 }
 .date {
-  margin-top: 1111px;
+  margin-top: 1092px;
   text-align: center;
   background-color: #a2b964;
   margin-bottom: 0px;
@@ -47,8 +45,11 @@ h1 {
 }
 .right img {
   border-top-right-radius: 15px;
+  
 }
-
+#overview {
+  margin-bottom: -29px;
+}
 #rotten {
   border: 4x solid red;
 }
@@ -69,16 +70,13 @@ h1 {
   border-radius: 10px;
   padding: 8px;
   font-weight: bold;
-  
 }
 .person {
   font-style: italic;
   font-size: small;
-  
 }
 .para img {
   float: left;
-  
 }
 .person img {
   float: left;
@@ -91,7 +89,6 @@ h1 {
   font-weight: bold;
   color: rgb(218, 23, 23);
   border-top-left-radius: 15px;
-  
 }
 #rottenbigimage img {
   border-top-left-radius: 15px;
@@ -102,5 +99,9 @@ h1 {
 }
 .movieinfo {
   background-color: #a2b964;
-  
+   
+}
+#overview img {
+  margin-bottom: 10px;
+  border-color: red;
 }
