@@ -21,17 +21,18 @@ h1 {
   text-align: center;
 }
 #main {
-  
+
   width: 800px;
   margin: auto;
   border: 4px solid grey;
   border-radius: 20px;
   border-top-right-radius: 20px;
   
+  
 }
 .date {
   
-  margin-top: 1092px;
+  margin-top: 1185px;
   text-align: center;
   background-color: #a2b964;
   margin-bottom: 0px;
@@ -110,4 +111,17 @@ h1 {
 #overview img {
   margin-bottom: 10px;
   border-color: red;
+}
+dd{
+font-size: 10pt;
+font-weight: bold;
+margin-bottom: 10pt;
+}
+dt{
+  font-size: 10pt;
+  font-weight: bold;
+  margin-bottom: 10pt;
+}
+dd li{
+  list-style: none
 }
