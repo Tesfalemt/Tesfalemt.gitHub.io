@@ -1,0 +1,41 @@
+body{
+  
+    background-color:pink ;
+}
+
+form{
+  
+    display: flex;
+justify-content:center;
+}
+fieldset{
+
+    background-color: rgb(168, 189, 135);
+    width: 33%;
+}
+legend{
+    font-size: 35px;
+}
+.deepform{
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+}
+input[type="submit"]{
+    width: 190px;
+}
+label{
+    margin-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+input[type="submit"] {
+	background-color:yellow;
+	font-size: 120%;
+	font-weight: bold;
+}
+ 

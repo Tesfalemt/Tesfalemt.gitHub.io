@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" href="Grade.css">
+</head>
+<body>
+    <form action="http://mumstudents.org/params.php" method="POST">
+    <fieldset>
+        <legend>Retrieve your grade</legend>
+        <div class="deepform">
+            <label> NAME:<input name="name" type="text" placeholder="student name"> </label>
+            
+            <label>STUDENT ID: <input  name="id" type="text" placeholder="student id"> </label>
+            
+           
+
+            <label > assignment
+                <select name="assignment" id="assignment">
+                    <option value="wap">wap</option>
+                    <option value="mwa">mwa</option>
+                    <option value="waa">waa</option>
+                </select>
+            </label>
+            <label> FEB21 ENTRY<input type="radio"  name="entry" value="FEB21"></label>
+            <label> APRIL21 ENTRY<input type="radio" name="entry" value="FEB21"></label>
+            <label>  AUGUST21 ENTRY<input type="radio" name="entry" value="FEB21"></label>
+            <label>  NOV21 ENTRY<input type="radio" name="entry" value="NOV21"></label>
+            <label > I AM ENTERING THE CORRECT INFORMATION <input  name="notlying" type="checkbox" value="yes" ></label>
+            <label > I AM ONLY CHECKING  ONLY MY OWN GRADES  <input  name="yourgrade" type="checkbox" value="yes" ></label>
+            <input type="submit" value="submit">
+       </div>
+    </fieldset>
+       
+    </form>
+    <div class="footer">
+        <a class="a" href="https://jigsaw.w3.org/css-validator/validator?uri=helentsehaye.github.io%2Fhelentsehaye.github.io%2FGrade.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img src="../imageValidators/w3c-css.png" alt="Valid CSS!">
+        </a>
+        <a class="a" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhelentsehaye.github.io%2F">
+            <img src="../imageValidators/w3c-html.png" alt="html validator">
+        </a>          
+    </div>
+</body>
+</html>
