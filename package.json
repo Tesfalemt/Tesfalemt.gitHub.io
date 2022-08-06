@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Tesfalemt/Tesfalemt.gitHub.io/issues"
   },
-  "homepage": "https://github.com/Tesfalemt/Tesfalemt.gitHub.io#readme"
+  "homepage": "https://github.com/Tesfalemt/Tesfalemt.gitHub.io#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
 }
